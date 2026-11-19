@@ -41,7 +41,7 @@ RUN if [ "$TARGETARCH" = "arm" ]; then export GOARM=7; [ "$TARGETVARIANT" = "v6"
     -o sui main.go
 
 FROM alpine
-LABEL org.opencontainers.image.source="https://github.com/shenaba/2s-ui"
+LABEL org.opencontainers.image.source="https://github.com/knifelfstudio/2s-ui"
 ENV TZ=Asia/Tehran
 # Marks the container so the panel's self-update takes the Docker path: swap
 # the binary in the writable layer, then re-exec the entrypoint (no systemd

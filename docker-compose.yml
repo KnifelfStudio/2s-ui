@@ -1,7 +1,7 @@
 ---
 services:
   s-ui:
-    image: ghcr.io/shenaba/2s-ui
+    image: ghcr.io/knifelfstudio/2s-ui
     container_name: s-ui
     hostname: "s-ui"
     volumes:
